@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sioen.Kata.FizzBuzz.TDD
 {
-    public class FizzBuzz : IFizzBuzz
+    public class FizzBuzz
     {
         public string CalculateFizzBuzz(int i)
         {
