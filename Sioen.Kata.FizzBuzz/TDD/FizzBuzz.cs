@@ -10,6 +10,10 @@ namespace Sioen.Kata.FizzBuzz.TDD
     {
         public string CalculateFizzBuzz(int i)
         {
+            if (i == 3)
+            {
+                return "Fizz";
+            }
             return i.ToString();
         }
     }
