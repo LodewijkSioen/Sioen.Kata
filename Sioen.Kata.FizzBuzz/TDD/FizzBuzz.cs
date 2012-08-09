@@ -14,6 +14,10 @@ namespace Sioen.Kata.FizzBuzz.TDD
             {
                 return "Fizz";
             }
+            if (i == 5)
+            {
+                return "Buzz";
+            }
             return i.ToString();
         }
     }
