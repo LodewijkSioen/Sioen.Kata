@@ -10,13 +10,18 @@ namespace Sioen.Kata.FizzBuzz.TDD
     {
         public string CalculateFizzBuzz(int i)
         {
+            var returnValue = new StringBuilder();
             if (i % 3 == 0)
             {
-                return "Fizz";
+                returnValue.Append("Fizz");
             }
             if (i % 5 == 0)
             {
-                return "Buzz";
+                returnValue.Append("Buzz");
+            }
+            if (returnValue.Length > 0)
+            {
+                return returnValue.ToString();
             }
             return i.ToString();
         }
