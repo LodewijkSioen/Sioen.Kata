@@ -10,7 +10,7 @@ namespace Sioen.Kata.FizzBuzz.TDD
     {
         public string CalculateFizzBuzz(int i)
         {
-            throw new NotImplementedException();
+            return "1";
         }
     }
 }
